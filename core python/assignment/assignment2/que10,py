@@ -1,0 +1,7 @@
+num=int(input('enter the number:'))
+di=num%10
+num //=10
+d2=num%10
+num //=10
+d3=num%10
+print(f'the reverse of number is:{di}{d2}{d3}')
