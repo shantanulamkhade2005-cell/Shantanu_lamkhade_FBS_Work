@@ -1,0 +1,11 @@
+li=[10,20,30,40,20,34,50,10,100]
+i=0
+while(i<len(li)):
+    j=i+1
+    while(j<len(li)):
+        if(li[i]==li[j]):
+            li.pop(j)
+        else:
+            j+=1
+    i+=1
+print(li)
